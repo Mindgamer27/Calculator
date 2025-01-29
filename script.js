@@ -13,7 +13,7 @@ function updateDisplay() {
 }
 
 function performOperation(operator) {
-  //if (displayValue === '') return;
+  if (displayValue === '') return;
   if (firstOperand !== null && currentOperation) {
     calculate();
   }
